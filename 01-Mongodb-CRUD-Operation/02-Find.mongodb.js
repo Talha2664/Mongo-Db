@@ -8,3 +8,5 @@ db.products.find({ category: "Electronics" })
 // Using Comparison Operators
 db.products.find({ price: { $gt: 1000 } }) // greater than 1000
 db.products.find({ price: { $gte: 1000, $lte: 50000 } })
+
+db.contacts.findOne({_id : ObjectId('6958a5583e6c8129508f11e8')})

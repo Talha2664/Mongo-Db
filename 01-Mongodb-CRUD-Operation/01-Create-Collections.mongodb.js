@@ -1,7 +1,7 @@
 use("ecommerce");
 
 db.createCollection("Contacts");
-
+// db.Contacts.renameCollection("Contact")
 
 db.products.insertMany([
   {
